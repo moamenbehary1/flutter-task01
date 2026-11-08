@@ -17,7 +17,7 @@ The entry point of the application, designed to greet the user and provide quick
   * **View Offers:** Routes the user directly to the **Profile Screen**.
 * **Design Focus:** Simple layout prioritizing user call-to-actions (CTAs).
 
-![Home screen]()
+![Home screen](screenshots/home.png)
 
 ### 2. Settings Screen (Action Prompt)
 
@@ -31,7 +31,7 @@ Opened by tapping the **Shop Now** button. This screen demonstrates a clean conf
   * **Save:** A solid `ElevatedButton` acting as the primary CTA.
 * **Bottom Navigation:** A persistent `BottomNavigationBar` (currently a UI placeholder).
 
-![Settings screen]()
+![Settings screen](screenshots/settings.png)
 
 ### 3. Profile Screen (User Dashboard)
 
@@ -43,7 +43,7 @@ Opened by tapping the **View offers** button. A detailed user profile view displ
   * **Following:** Displays "80" with a secondary **Message** (`OutlinedButton`).
 * **Bottom Navigation:** Consistent with the app's theme, visually indicating that the "Profile" tab is currently active.
 
-![Profile screen]()
+![Profile screen](screenshots/profile.png)
 
 ---
 
