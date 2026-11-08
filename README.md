@@ -9,8 +9,10 @@ A comprehensive and clean UI demonstration built with Flutter. This project serv
 The application consists of three main screens, each demonstrating different Flutter widgets, layouts, and styling techniques:
 
 ### 1. Home Screen (Welcome)
+
 The entry point of the application, designed to greet the user and provide quick access to core features.
-* **Navigation Actions:** 
+
+* **Navigation Actions:**
   * **Shop Now:** Routes the user to the **Settings Screen**.
   * **View Offers:** Routes the user directly to the **Profile Screen**.
 * **Design Focus:** Simple layout prioritizing user call-to-actions (CTAs).
@@ -18,7 +20,9 @@ The entry point of the application, designed to greet the user and provide quick
 ![Home screen](screenshots/home.png)
 
 ### 2. Settings Screen (Action Prompt)
+
 Opened by tapping the **Shop Now** button. This screen demonstrates a clean confirmation interface.
+
 * **Custom AppBar:** Features a back navigation icon, a centered "Settings" title, and a trailing 'more options' icon.
 * **Confirmation Section:** A vertically centered textual prompt asking *"Do you want to save changes?"*.
 * **Action Buttons:** Displays three distinct button styles side-by-side to showcase Flutter's Material buttons:
@@ -30,7 +34,9 @@ Opened by tapping the **Shop Now** button. This screen demonstrates a clean conf
 ![Settings screen](screenshots/settings.png)
 
 ### 3. Profile Screen (User Dashboard)
+
 Opened by tapping the **View offers** button. A detailed user profile view displaying account statistics and direct interaction options.
+
 * **Interactive Header (AppBar):** A customized app bar featuring a user avatar ('A'), the user's name ("Ahmed Ali"), an "Online" status indicator, and quick action icons for voice and video calls.
 * **Statistics Section:** Uses an `IntrinsicHeight` row with a `VerticalDivider` to elegantly separate user stats:
   * **Followers:** Displays "120" with a primary **Follow** (`ElevatedButton`).
@@ -62,3 +68,4 @@ flutter pub get
 
 # Run the application on your connected device or emulator
 flutter run
+```
