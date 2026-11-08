@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const TaskApp());
 }
-
+// الاسكرين الاولي : الزرار  الاول بيوديك علي الاسكرين التانيه  : الزرار  التاني بيوديك علي الاسكريم التالته 
+// readme file : ابقا بص يا هندسه علي   
 class TaskApp extends StatelessWidget {
   const TaskApp({super.key});
   @override
