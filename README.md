@@ -68,4 +68,3 @@ flutter pub get
 
 # Run the application on your connected device or emulator
 flutter run
-```
